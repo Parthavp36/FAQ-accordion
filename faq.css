@@ -19,7 +19,7 @@ body
 }
 .cont1
 {
-    height:360px;
+    height:auto;
     width: 400px;
     margin-top: -150px;
     border-radius: 10px;
@@ -27,7 +27,7 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    overflow: scroll;
+    padding-bottom:40px;
     justify-content: start;
 }
 .cont1 div
