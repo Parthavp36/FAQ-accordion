@@ -1,0 +1,83 @@
+body
+{
+    margin:0px;
+    background-color: hsl(275, 100%, 97%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bgimg
+{
+    background-image: url('assets/images/background-pattern-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:250px;
+    width: 100%;
+    z-index: -1;
+}
+.cont1
+{
+    height:360px;
+    width: 400px;
+    margin-top: -150px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+    justify-content: start;
+}
+.cont1 div
+{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width:90%;
+}
+.cont1 div h1
+{
+    margin-left: 20px;
+    color:hsl(292, 42%, 14%);
+}
+.q1
+{
+    height: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+   padding-bottom: 20px;
+   transition: opacity 0.3s ease, height 0.3s ease;
+    border-bottom: 1px solid hsl(275, 100%, 97%);
+    padding: 10px;
+}
+.q1 p
+{
+    font-size: 12px;
+    margin-left:20px;
+    display: none;
+    line-height: 1.5;
+    transition: 0.3s;
+}
+.q1 div
+{
+    display: flex;
+    width: 90%;
+    height: auto;
+    justify-content: space-between;
+}
+.q1 div button
+{
+    background-color: white;
+    border:none;
+    cursor: pointer;
+}
+.q1 div img:hover
+{
+    opacity: 0.5;
+}
+.cont1::-webkit-scrollbar {
+    display: none;
+  }
